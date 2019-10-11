@@ -22,19 +22,19 @@
 
 //----- Configuration --------------------------//
 //Keypad size
-#define Keypad_Size			44
+#define Keypad_Size			33
 
 //ISR debounce states (1 <= x <= 255)
 #define Keypad_ISR_Max		10
 
 //PORT, PIN
-#define Keypad_R0			B, 0
-#define Keypad_R1			B, 1
-#define Keypad_R2			B, 2
-#define Keypad_R3			B, 3
-#define Keypad_C0			B, 4
-#define Keypad_C1			B, 5
-#define Keypad_C2			B, 6
-#define Keypad_C3			B, 7
+#define Keypad_R0			C, 2
+#define Keypad_R1			C, 3
+#define Keypad_R2			C, 4
+#define Keypad_R3			C, 4
+#define Keypad_C0			C, 5
+#define Keypad_C1			C, 6
+#define Keypad_C2			C, 7
+#define Keypad_C3			C, 7
 //----------------------------------------------//
 #endif
