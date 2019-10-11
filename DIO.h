@@ -21,6 +21,6 @@ Std_Func_t DIO_init (PINS_t input);
 
 Std_Func_t DIO_write (uint8 port,uint8 pin,uint8 val, PINS_t input);
 
-Std_Func_t DIO_read (uint8 port,uint8 pin,uint8 * Pval, PINS_t input);
+Std_Func_t DIO_read (uint8 port,uint8 pin);
 
 #endif /* DIO_H_ */
