@@ -12,7 +12,7 @@
 #include "registers.h"
 #include "stdtypes.h"
 
-typedef enum {LED,MOTOR,BUTTON,NUM_OF_PINS}PINS_t;
+typedef enum {BP0,NUM_OF_PINS}PINS_t;
 
 #define PORT_A		0
 #define PORT_B		1
